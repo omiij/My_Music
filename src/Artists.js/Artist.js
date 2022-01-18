@@ -27,7 +27,7 @@ export const Info = [
     Imageurl:
       "https://c4.wallpaperflare.com/wallpaper/819/67/757/maroon-5-band-members-look-wallpaper-preview.jpg",
     cName: "artist-links",
-    url: "Maroonsong",
+    url: "/Maroonsong",
   },
   {
     name: "Alexandra Stan",

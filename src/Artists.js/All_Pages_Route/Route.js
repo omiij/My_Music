@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+
 import {
   Backk,
   Singer,
@@ -17,23 +17,25 @@ import {
   Jub,
 } from "../All_Pages_Route/Pages";
 import Form from "../../Sign-Up Form/Form";
+import Header from "../../Header/Header";
+import Footer from "../../Footer/Footer";
 
-export function Singer1() {
+export function Home() {
   return (
     <>
-      <Routes>
-        <Route path="/Singer" element={<Singer />} />
-      </Routes>
+      <Header />
+      <Backk />
+      <Footer />
     </>
   );
 }
 
-export function Bakk1() {
+export function Singer1() {
   return (
     <>
-      <Routes>
-        <Route path="/" element={<Backk />} />
-      </Routes>
+      <Header />
+      <Singer />
+      <Footer />
     </>
   );
 }
@@ -41,9 +43,9 @@ export function Bakk1() {
 export function Pitb1() {
   return (
     <>
-      <Routes>
-        <Route path="/Pitsong" element={<Pitb />} />
-      </Routes>
+      <Header />
+      <Pitb />
+      <Footer />
     </>
   );
 }
@@ -51,9 +53,9 @@ export function Pitb1() {
 export function Jeni1() {
   return (
     <>
-      <Routes>
-        <Route path="/Jenisong" element={<Jeni />} />
-      </Routes>
+      <Header />
+      <Jeni />
+      <Footer />
     </>
   );
 }
@@ -61,9 +63,9 @@ export function Jeni1() {
 export function Radf1() {
   return (
     <>
-      <Routes>
-        <Route path="/Radfoosong" element={<Radf />} />
-      </Routes>
+      <Header />
+      <Radf />
+      <Footer />
     </>
   );
 }
@@ -71,9 +73,9 @@ export function Radf1() {
 export function Mar1() {
   return (
     <>
-      <Routes>
-        <Route path="/Maroonsong" element={<Mar />} />
-      </Routes>
+      <Header />
+      <Mar />
+      <Footer />
     </>
   );
 }
@@ -81,9 +83,9 @@ export function Mar1() {
 export function Alex1() {
   return (
     <>
-      <Routes>
-        <Route path="/Alexasong" element={<Alex />} />
-      </Routes>
+      <Header />
+      <Alex />
+      <Footer />
     </>
   );
 }
@@ -91,9 +93,9 @@ export function Alex1() {
 export function Akc1() {
   return (
     <>
-      <Routes>
-        <Route path="/Akcentsong" element={<Akc />} />
-      </Routes>
+      <Header />
+      <Akc />
+      <Footer />
     </>
   );
 }
@@ -101,9 +103,9 @@ export function Akc1() {
 export function Yankee1() {
   return (
     <>
-      <Routes>
-        <Route path="/Dadyyankeesong" element={<Yankee />} />
-      </Routes>
+      <Header />
+      <Yankee />
+      <Footer />
     </>
   );
 }
@@ -111,9 +113,9 @@ export function Yankee1() {
 export function Char1() {
   return (
     <>
-      <Routes>
-        <Route path="/Puthsong" element={<Char />} />
-      </Routes>
+      <Header />
+      <Char />
+      <Footer />
     </>
   );
 }
@@ -121,9 +123,9 @@ export function Char1() {
 export function Kish1() {
   return (
     <>
-      <Routes>
-        <Route path="/KishorKumarsong" element={<Kish />} />
-      </Routes>
+      <Header />
+      <Kish />
+      <Footer />
     </>
   );
 }
@@ -131,9 +133,9 @@ export function Kish1() {
 export function Bru1() {
   return (
     <>
-      <Routes>
-        <Route path="/Brunosong" element={<Bru />} />
-      </Routes>
+      <Header />
+      <Bru />
+      <Footer />
     </>
   );
 }
@@ -141,9 +143,9 @@ export function Bru1() {
 export function Tay1() {
   return (
     <>
-      <Routes>
-        <Route path="/Taylorsong" element={<Tay />} />
-      </Routes>
+      <Header />
+      <Tay />
+      <Footer />
     </>
   );
 }
@@ -151,9 +153,9 @@ export function Tay1() {
 export function Jub1() {
   return (
     <>
-      <Routes>
-        <Route path="/Jubinsong" element={<Jub />} />
-      </Routes>
+      <Header />
+      <Jub />
+      <Footer />
     </>
   );
 }
@@ -161,9 +163,9 @@ export function Jub1() {
 export function SignUp() {
   return (
     <>
-      <Routes>
-        <Route path="/SignUp" element={<Form />} />
-      </Routes>
+      <Header />
+      <Form />
+      <Footer />
     </>
   );
 }

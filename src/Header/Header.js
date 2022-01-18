@@ -9,7 +9,7 @@ export const MenuItems = [
   },
   {
     title: "Music",
-    url: "/Singer",
+    url: "/Artist",
     cName: "nav-links",
   },
   {
